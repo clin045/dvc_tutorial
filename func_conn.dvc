@@ -1,0 +1,16 @@
+md5: ede9f14849918ec1875c8b8e86b8e032
+cmd: sh functional_connectivity.sh
+deps:
+- md5: d0649205979c7538fe4c3dbd5b45eaae.dir
+  path: data/spheres
+outs:
+- md5: db9ec6c1f1236bcdf1a690eb1a5dd9b5
+  path: sphere_list.csv
+  cache: true
+  metric: false
+  persist: false
+- md5: 2812f04c892795878f209646dda1f7c8.dir
+  path: data/sphere_conn
+  cache: true
+  metric: false
+  persist: false
