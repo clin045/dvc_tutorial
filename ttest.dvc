@@ -1,0 +1,20 @@
+md5: ba65968ee3adff995716d73e6c64fee0
+cmd: jupyter nbconvert simple_ttest.ipynb --execute --inplace --clear-output --ExecutePreprocessor.timeout=None
+deps:
+- md5: 2e0a33e173b97ec79bd6634816a9df27
+  path: simple_ttest.ipynb
+- md5: 2812f04c892795878f209646dda1f7c8.dir
+  path: data/sphere_conn
+- md5: a1f370d34175bb4e9c0209ab9cbfa8c8.dir
+  path: src_data
+outs:
+- md5: cffd65a47f896e11ec6429f5831849b2.dir
+  path: palm_config
+  cache: true
+  metric: false
+  persist: false
+- md5: 82e16979f5cc3b6419ef3a72920fd7b2.dir
+  path: palm_output
+  cache: true
+  metric: false
+  persist: false
