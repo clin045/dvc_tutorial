@@ -1,8 +1,8 @@
 ['remote "rdrive"']
-url = /data/nimlab/dvc_remote/clin5
+url = /data/nimlab/dvc_remote/test
 [cache]
 type = symlink
-dir = /data2/dvc_cache/clin5
+dir = /data2/dvc_cache/test
 protected = true
 [core]
 remote = rdrive
